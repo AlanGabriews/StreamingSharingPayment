@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AlanGabriews/StreamingSharingPayment/issues"
   },
-  "homepage": "https://github.com/AlanGabriews/StreamingSharingPayment#readme"
+  "homepage": "https://github.com/AlanGabriews/StreamingSharingPayment#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
