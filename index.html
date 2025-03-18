@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ServiceShare</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">ServiceShare</div>
+        <div class="auth-links">
+          <a href="#login">Login</a>
+          <a href="#signup">Sign Up</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="main-content">
+        <div class="page-links">
+          <nav>
+            <ul class="page-links-list">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#create-groups">Create Group</a></li>
+              <li><a href="#your-groups">Your Groups</a></li>
+            </ul>
+          </nav>
+        </div>
+        <section id="home">
+          <h1>Welcome to ServiceShare</h1>
+          <p>
+            Manage shared subscriptions with ease: Create your own and participate
+            on groups, send reminders, and more.
+          </p>
+        </section>
+        <section id="create-group">
+          <h2>Create a New Group</h2>
+          <form id="create-group-form">
+            <label for="group-name">Group Name:</label>
+            <input type="text" id="group-name" name="group-name" required />
+  
+            <label for="members">Members</label>
+            <button type="submit">Create Group</button>
+          </form>
+        </section>
+        <section id="your-groups">
+          <h2>Your Groups</h2>
+          <ul id="group-list">
+  
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2025 ServiceShare</p>
+    </footer>
+
+    <script src="js/utils.js"></script>
+    <script src="js/groupManager.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
